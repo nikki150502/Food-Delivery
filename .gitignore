@@ -1,0 +1,5 @@
+/admin/node_modules
+/admin/package-lock.json
+/backend/package-lock.json
+/frontend/client/node_modules
+/frontend/client/package-lock.json

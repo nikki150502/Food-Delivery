@@ -1,0 +1,116 @@
+ 
+ /* order.css */
+
+/* Basic styling for the order container */
+.order {
+  
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  
+  }
+  
+  /* Styling for the heading */
+  .order h3 {
+    
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+     
+  }
+  
+  /* Container for the order list */
+  .order-list {
+   display: flex; 
+    flex-direction: column;
+    gap: 20px;
+    
+  }
+  
+  /* Individual order item styling */
+  .order-item {
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 1fr 1fr 2fr 0.5fr; 
+    gap:20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    
+    flex-direction: column;
+    
+  }
+  
+  /* Image styling */
+  .order-item img {
+    width: 80px;
+  height: 80px;
+  object-fit: cover;
+  margin-bottom: 20px;
+  }
+  
+  /* Order item food list styling */
+  .order-item-food {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #666;
+  }
+  
+  /* Styling for the order details */
+  .order-item p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  /* Name styling */
+  .order-item-name {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  /* Address styling */
+  .order-item-address p {
+    margin: 0;
+    display: flex;
+    font-size: 12px;
+     
+  }
+  
+  /* Phone styling */
+  .order-item-phone {
+    margin-top: 10px;
+    color: #888;
+  }
+  
+  /* Select dropdown styling */
+  .order-item select {
+    margin-top: 10px;
+    padding: 5px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Media query for responsive design */
+  @media (max-width: 768px) {
+    .order-list {
+      flex-direction: column;
+    }
+    .order-item{
+      flex-direction: row;
+    }
+   
+  }
+  
+  @media (max-width: 480px) {
+    .order-list {
+       flex-direction: column;
+       display: flex;
+    }
+   
+  }
+  

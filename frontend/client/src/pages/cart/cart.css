@@ -1,0 +1,119 @@
+
+ .cart{
+    margin-top:100px;
+ }
+.cart-items-title{
+    display: grid;
+    grid-template-columns: 1fr 1.2fr 1fr 1fr 1fr 0.5fr;
+    align-items: center;
+    color: rgb(26, 14, 2);
+    font-size: max(1vw,12px);
+}
+ 
+ 
+ 
+  .cart-items-item {
+    margin: 10px 0;
+    color:rgb(34, 2, 2);
+  }
+  
+  .cart-items-item img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+  }
+  .cart hr{
+    height: 1px;
+    background-color: #887575;
+    border:none;
+  }
+
+  .cart-items-item .cross{
+    cursor: pointer;
+  }
+
+  .cart-bottom{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    gap:max(12vw,20px);
+    
+  }
+  .cart-total{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+  }
+
+  
+  .cart-total-details{
+    display: flex;
+    justify-content: space-between;
+   color: rgb(33, 35, 35);
+  }
+
+  .cart-total hr{
+    margin: 10px 0px;
+  }
+  .cart-total button{
+    border: none;
+    color: white;
+    background-color: tomato;
+    width:max(10vw,200px);
+    padding:8px 0px;
+    border-radius: 4px;
+    margin-top: 15px;
+    cursor: pointer;
+    margin-bottom: 15px;
+    margin-left: 140px;
+  }
+  .cart-promocode{
+    flex:1;
+  }
+  .cart-promocode p{
+    color: rgb(90, 89, 88);
+  }
+ 
+  .cart-promocode-input {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(240, 243, 246);
+    border-radius: 4px;
+    outline: none;
+  }
+  
+  .cart-promocode-input input {
+    justify-content: space-around;
+    background: transparent;
+    outline: none;
+    padding-left: 5px;
+    border: none; /* Added border none for a better appearance */
+    flex-grow: 1; /* Ensures the input takes up available space */
+    height: 35px; /* Adjust the height to match button height */
+  }
+  
+  .cart-promocode-input button {
+    border: none;
+    color: white;
+    background-color: rgb(18, 16, 16);
+    width: max(10vw, 200px);
+    padding: 8px 0px;
+    border-radius: 4px;
+    margin-top: 0px;
+    cursor: pointer;
+  }
+  
+
+  /* res
+   */
+   @media (max-width:750px){
+    .cart-bottom{
+        flex-direction: column-reverse;
+    }
+    .cart-promocode{
+        justify-content: start;
+    }
+   }

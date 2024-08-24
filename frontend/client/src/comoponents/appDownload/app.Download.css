@@ -1,0 +1,32 @@
+.app-download {
+    text-align: center;
+    padding: 20px;
+     border-radius: 5px;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+    max-width: 500%px;
+    margin: 0 auto;
+    background:linear-gradient(to right,
+    rgb(37, 39, 39),
+    rgb(111, 108, 108));
+    margin-top: 60px;
+  }
+  
+  .app-download p {
+    font-size: 18px;
+    color: #131101;
+    margin: 0 0 15px;
+    font-weight: 500;
+  }
+  
+  .app-download-platforms {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .app-download-platforms img {
+    width: 150px; /* Adjust the size of the image */
+    height: auto;
+    border-radius: 8px;
+  }
+  

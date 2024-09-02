@@ -71,34 +71,47 @@ Follow these steps to get the application up and running locally:
 ## ScreenShots:
 ## -FOR USER
 1. **Home Page**
+ 
  ![Screenshot 2024-09-03 033954](https://github.com/user-attachments/assets/1b9146ce-29de-4243-a061-8b157a130698)
  
 2. **Login Page**
+ 
   ![Screenshot 2024-09-03 034322](https://github.com/user-attachments/assets/381d4c56-d12c-4003-87dc-4d36a1ea7125)
 
-![Screenshot 2024-09-03 034312](https://github.com/user-attachments/assets/0ef09adb-6a6f-43ee-8576-4c10eabc22e0)
+  ![Screenshot 2024-09-03 034312](https://github.com/user-attachments/assets/0ef09adb-6a6f-43ee-8576-4c10eabc22e0)
 
 3. **Menu**
+
 ![Screenshot 2024-09-03 034033](https://github.com/user-attachments/assets/e5d84ce0-e236-40a4-8f89-7add16774e08)
+
+![Screenshot 2024-09-03 035533](https://github.com/user-attachments/assets/79d0f912-e66c-49f5-881a-443ab057b948)
+
+
  
 4. **Contact**
-![Screenshot 2024-09-03 034057](https://github.com/user-attachments/assets/070c6414-5373-4c8d-9226-9c0768167265)
+ 
+ ![Screenshot 2024-09-03 034057](https://github.com/user-attachments/assets/070c6414-5373-4c8d-9226-9c0768167265)
 
 5. **Cart Details**
+
 ![Screenshot 2024-09-03 033622](https://github.com/user-attachments/assets/acea2868-77d6-40bf-9150-c6b7348bad79)
  
 6. **Proceed to checkout**
+
 ![Screenshot 2024-09-03 033547](https://github.com/user-attachments/assets/c2a81882-8f6c-4510-9664-2576b6a09760)
  
 
   ## -FOR ADMIN
   1. **Add items**
-  ![Screenshot 2024-09-03 033705](https://github.com/user-attachments/assets/8f8a4624-4a84-4808-89d5-96a9f7d867f2)
+   
+   ![Screenshot 2024-09-03 033705](https://github.com/user-attachments/assets/8f8a4624-4a84-4808-89d5-96a9f7d867f2)
 
   2. **List items**
-![Screenshot 2024-09-03 033731](https://github.com/user-attachments/assets/e9b677f4-cfb2-41a7-95d7-2c99ef36e4d2)
+
+   ![Screenshot 2024-09-03 033731](https://github.com/user-attachments/assets/e9b677f4-cfb2-41a7-95d7-2c99ef36e4d2)
  
   3. **Order details**
+  
   ![Screenshot 2024-09-03 033807](https://github.com/user-attachments/assets/2e1159d1-21d4-409a-947a-6d14800e9d24)
 
  
